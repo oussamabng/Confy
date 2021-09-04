@@ -1,0 +1,47 @@
+.admin_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #F3F3F3;
+}
+.admin_login .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.admin_login .form{
+    margin: 4rem!important;
+    background: white;
+    padding: 2rem 4rem;
+    min-width: 600px;
+    font-size: 16px;
+}
+.admin_login .title p{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 1rem;
+}
+.admin_login .input{
+    margin: .5rem;
+    font-size: 14px;
+}
+.admin_login .input input{
+    font-size: 16px!important;
+}
+.admin_login .righted span{
+    color: var(--grey);
+    font-size: 14px;
+}
+.admin_login .righted span a{
+    text-decoration: underline;
+    color: var(--grey);
+}
+.admin_login .loading.button,.admin_login .button, .admin_login .button:active,.admin_login .button:hover,.admin_login .button:focus{
+    background-color: var(--green);
+    color: white;
+    padding: 1rem 2.5rem;
+    font-size: 16px;
+}

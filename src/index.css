@@ -1,13 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root{
+  --green:#01FFA0;
+  --black:#000000;
+  --grey:#3B3B3B;
+  --blue:#0099FF;
+  --red:#F70000;
+  --orange:#FFB808;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  background: #F3F3F3;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a:hover,
+a:active,
+a:focus,
+input:hover,
+input:active,
+input:focus,
+button:hover,
+button:active,
+button:focus {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+p,h1,h2,h3,h4,label,span,button,div{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+.h-full {
+  height: 100%;
+}
+.w-full{
+  width:100%
+}
+.m-0 {
+  margin: 0;
+}
+.p-0 {
+  padding: 0;
+}
+._margin_horizontal_lg {
+  margin: auto 3rem !important;
+}
+._margin_horizontal_md {
+  margin: auto 2rem !important;
+}
+._margin_horizontal_sm {
+  margin: auto 1rem !important;
+}
+._margin_horizontal_xs {
+  margin: auto 0.5rem !important;
+}
+._margin_vertical_lg {
+  margin: 3rem auto !important;
+}
+._margin_vertical_md {
+  margin: 2rem auto !important;
+}
+._margin_vertical_sm {
+  margin: 1rem auto !important;
+}
+._margin_vertical_xs {
+  margin: 0.05rem auto !important;
+}
+._padding_horizontal_lg {
+  padding: auto 3rem !important;
+}
+._padding_horizontal_md {
+  padding: auto 2rem !important;
+}
+._padding_horizontal_sm {
+  padding: auto 1rem !important;
+}
+._padding_horizontal_xs {
+  padding: auto 0.5rem !important;
+}
+._padding_vertical_lg {
+  padding: 3rem auto !important;
+}
+._padding_vertical_md {
+  padding: 2rem auto !important;
+} 
+._padding_vertical_sm {
+  padding: 1rem auto !important;
+}
+._padding_vertical_xs {
+  padding: 0.05rem auto !important;
+}
+.centered{
+  display: flex;
+  justify-content: center;
+}
+.righted{
+  display: flex;
+  justify-content: flex-end;
+}
+.lefted{
+  display: flex;
+  justify-content: flex-start;
 }
