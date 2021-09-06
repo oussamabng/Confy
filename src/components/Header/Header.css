@@ -1,0 +1,33 @@
+.confy_header{
+    width: 100%;
+    padding-left: 220px;
+}
+.confy_header .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.confy_header .row h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.confy_header .profile{
+    display: flex;
+    align-items: center;
+}
+.confy_header .picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--green);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.confy_header .profile p{
+    margin-left: 1rem;
+    font-size: 13px;
+    font-weight: 700;
+}

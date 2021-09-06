@@ -1,0 +1,24 @@
+.confy_sidebar{
+    background: white;
+    width: 220px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+    position: fixed;
+    z-index: 999;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.confy_sidebar .row{
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+.confy_sidebar .items.top{
+    padding-bottom: 18rem;
+}

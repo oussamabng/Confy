@@ -1,0 +1,10 @@
+.confy_filteritem{
+    padding: .5rem 0;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 1.5rem!important;
+    cursor: pointer;
+}
+.confy_filteritem.active{
+    border-bottom: 2px solid var(--green);
+}

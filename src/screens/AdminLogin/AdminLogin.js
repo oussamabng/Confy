@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Container,Form,Button,Message } from "semantic-ui-react";
-import { useHistory } from "react-router";
-import axios from "axios";
+import { Container,Form,Button } from "semantic-ui-react";
 
 import "./AdminLogin.css";
 import Logo from "../../assets/icons/logo.png"
 
 const AdminLogin = ()=>{
-    const history = useHistory();
     const [error, seterror] = useState(null);
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");

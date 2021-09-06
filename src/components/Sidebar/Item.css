@@ -1,0 +1,28 @@
+.confy_item{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.confy_item a{
+    margin-left: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.confy_item.active a{
+    color: var(--green);
+}
+.confy_item.active .icon{
+    color: var(--green);
+}
+.active_sign{
+    background-color: var(--green);
+    width: 8px;
+    height: 28px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    position: absolute;
+    left: 0;
+}

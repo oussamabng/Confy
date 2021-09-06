@@ -1,0 +1,38 @@
+.confy_filterbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 220px;
+}
+.confy_filterbox .search{
+    margin: 1rem;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.confy_filterbox .search .input{
+    background-color: white;
+    border-radius: 5px;
+}
+.confy_filterbox .search .input input{
+    border: 0px;
+    padding-right: 14rem!important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 14px;
+    height: 40px;
+}
+.confy_filterbox .search .button,.confy_filterbox .search .button:hover,.confy_filterbox .search .button:active{
+    padding: 1rem 2rem;
+    height: 40px;
+    background-color: var(--green);
+    margin: auto 1rem;
+    font-weight: 400;
+    font-size: 14px;
+}
+.confy_filterbox .filter {
+    display: flex;
+    align-content: center;
+}
