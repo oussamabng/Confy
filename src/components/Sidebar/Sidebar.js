@@ -18,18 +18,18 @@ const Sidebar = (props) => {
             <div className="row">
             <img src={Logo} width="85" height="40" alt="logo" />
                 <div className="items top">
-                    <Item handleItemClicked={handleItemClicked} active={activeItem==="Statistique"} name="Statistique" icon="stats-chart" link="/admin/dashboard" />
-                    <Item handleItemClicked={handleItemClicked} active={activeItem==="Conferences"}   name="Conferences" icon="mic" link="/admin/conference" />
-                    <Item handleItemClicked={handleItemClicked} active={activeItem==="Articles"}  name="Articles" icon="document" link="#" />
-                    <Item handleItemClicked={handleItemClicked} active={activeItem==="Utilisateurs"}  name="Utilisateurs" icon="people" link="#" />
-                    <Item handleItemClicked={handleItemClicked} active={activeItem==="Archive"}  name="Archive" icon="archeive" link="/admin/archeive" />
+                    <Item line handleItemClicked={handleItemClicked} active={activeItem==="Statistique"} name="Statistique" icon="stats-chart" link="/admin/dashboard" />
+                    <Item line handleItemClicked={handleItemClicked} active={activeItem==="Conferences"}   name="Conferences" icon="mic" link="/admin/conference" />
+                    <Item line  handleItemClicked={handleItemClicked} active={activeItem==="Articles"}  name="Articles" icon="document" link="/admin/article" />
+                    <Item line handleItemClicked={handleItemClicked} active={activeItem==="Utilisateurs"}  name="Utilisateurs" icon="people" link="/admin/utilisateur" />
+                    <Item line handleItemClicked={handleItemClicked} active={activeItem==="Archive"}  name="Archive" icon="archeive" link="/admin/archeive" />
 
                 </div>
                 <div className="items bottom">
                     <Divider clearing />
-                    <Item handleItemClicked={handleItemClicked} active={activeItem==="Notification"}  name="Notification" icon="notif" link="#" />
-                    <Item handleItemClicked={handleItemClicked} active={activeItem==="Signaler"}  name="Signaler" icon="signal" link="#" />
-                    <Item handleItemClicked={handleItemClicked} active={activeItem==="Déconnecté"} name="Déconnecté" icon="logout" link="#" />
+                    <Item line handleItemClicked={handleItemClicked} active={activeItem==="Notification"}  name="Notification" icon="notif" link="#" />
+                    <Item line handleItemClicked={handleItemClicked} active={activeItem==="Signaler"}  name="Signaler" icon="signal" link="#" />
+                    <Item line handleItemClicked={handleItemClicked} active={activeItem==="Déconnecté"} name="Déconnecté" icon="logout" link="#" />
 
                 </div>  
             </div>

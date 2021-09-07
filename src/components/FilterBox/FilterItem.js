@@ -1,6 +1,7 @@
 import React from 'react';
 import "./FilterItem.css";
 
+
 const FilterItem = (props) => {
     const { title,active,onClick,key } = props;
     return (

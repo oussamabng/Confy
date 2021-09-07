@@ -4,7 +4,7 @@ import { Icon } from "semantic-ui-react";
 
 
 const Item = (props) => {
-    const { name,icon,link,active ,handleItemClicked} = props;
+    const { name,icon,link,active ,handleItemClicked,line } = props;
     const [iconSrc,setIconSrc] = useState(null);
 
     useEffect(() => {
@@ -40,7 +40,7 @@ const Item = (props) => {
 
     return (
         <div className={active?"confy_item active":"confy_item"} onClick={()=>handleItemClicked(name)} >
-            { active && <div className="active_sign"></div>}
+            { line && active && <div className="active_sign"></div>}
             <Icon name={iconSrc} size='large' />
             <a href={link}>{name}</a>
         </div>

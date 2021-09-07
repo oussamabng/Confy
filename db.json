@@ -14,5 +14,12 @@
       { "id": 4, "name": "Le Monde", "type": "Social" ,"date":"24 / 10 / 2021", "admin":"John doe","responsable":"John doe" },
       { "id": 5, "name": "Le Monde", "type": "Social" ,"date":"24 / 10 / 2021", "admin":"John doe","responsable":"John doe" },
       { "id": 6, "name": "Le Monde", "type": "Social" ,"date":"24 / 10 / 2021", "admin":"John doe","responsable":"John doe" }
+    ],
+    "articles": [
+      { "id": 1, "name": "Le Monde", "type": "Social" ,"date":"24 / 10 / 2021", "n_page":"John doe","auteur":"John doe","accepted":true },
+      { "id": 1, "name": "Le Monde", "type": "Social" ,"date":"24 / 10 / 2021", "n_page":"John doe","auteur":"John doe","accepted":false }
+    ],
+    "utilisateurs": [
+      { "id": 1, "name": "Le Monde", "profession": "Social" ,"date_of_birth":"24 / 10 / 2021", "email":"John doe" }
     ]
 }

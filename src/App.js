@@ -29,6 +29,19 @@ const App = ()=>{  return (
         "Nom","Type","Date de suppresion","Responsable","admin",null
       ]} />} />
 
+
+      <Route exact path="/admin/article" component={()=><AdminDashboard title="Articles" filter={
+        [] 
+      }  activeFilter={null} url="/articles"  headers={[
+        "Nom","Type","Date","N° de page","Auteur",null
+      ]} />}  />
+
+       <Route exact path="/admin/utilisateur" component={()=><AdminDashboard title="Utilisateurs" filter={
+        [] 
+      }  activeFilter={null} url="/utilisateurs"  headers={[
+        "Nom d'utilisateur","Profession","Date de naissance","E-mail",null
+      ]} />}  />
+
       <Redirect to="/admin/dashboard" />
     </Switch>
     </Router>

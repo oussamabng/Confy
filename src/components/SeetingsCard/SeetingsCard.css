@@ -1,0 +1,25 @@
+.confy_seeting{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 999;
+    padding: 1rem;
+    width: 200px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+    top:0%;
+    right: 20%;
+}
+.confy_seeting .confy_item {
+    margin: 0!important;
+    padding: 1rem;
+}
+.confy_seeting .confy_item a{
+    color: var(--grey)!important;
+    font-size: 14px;
+}
+.confy_seeting .confy_item .icon{
+    color: var(--grey)!important;
+}
