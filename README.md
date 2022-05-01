@@ -1,21 +1,2 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### cd /frontend
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### cd /frontend
-### `json-server --watch db.json --port 3004`
-
-to run the json-server for testing the fake api data
+## Conferences and article dashboard
+<img src="https://user-images.githubusercontent.com/47861021/166152354-f5086413-4381-4561-bfb1-424fad325faa.png" width="90%"></img> 
